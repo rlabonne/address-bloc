@@ -55,11 +55,7 @@ class MenuController
             main_menu
       end
    end
-=begin
-   def nuke_entries
 
-   end
-=end
    def view_all_entries
       address_book.entries.each do |entry|
          system "clear"
